@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+  		<!-- <link rel="icon" type="image/png" href="./images/favicon.ico"> -->
+  		<title>Code Hammers</title>
+  		<meta charset="utf-8">
+  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>	
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+
+	  		<div class="container">
+	    		<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>                        
+	      			</button>
+	      			<a class="navbar-brand glyphicon glyphicon-cloud"  href="#"><h12 style="font-family: 'Shadows Into Light',cursive;">CodeHammers</h12></a>
+				</div>
+			
+	    		<div class="collapse navbar-collapse" id="myNavbar">
+	      			<ul class="nav navbar-nav navbar-right">
+	        			<li><a href="index.html">About</a></li>
+	        			<li><a href="./nav/product.html">Product</a></li>
+	        			<li><a href="#contact">Contact</a></li>
+	      			</ul>
+	    		</div>
+	  		</div>
+		</nav>
+
+		<div class="jumbotron">
+    		<h1>Code Hammers</h1>
+    		<p>we specialize in training school and college students for coding & technology.</p>
+    		<!-- <button class="btn btn-success">Build me A Website</button> -->
+  		</div>
+  		<!-- SideTabs Start -->
+  		<div class="help-tab visible-lg visible-md">
+
+  			<a href="#" target="_blank" > 
+  				<button class="btn btn-primary">Linkedin</button>
+			</a>
+
+			<a href="#" target="_blank" > 
+				<button class="btn btn-primary">Facebook</button>
+			</a>
+
+			<a href="#" target="_blank" > 
+  				<button class="btn btn-primary">Twitter</button>
+			</a>
+  		</div>
+  		<!-- SideTabs  End-->
+
+  		<!-- Content Start -->
+  		<div id="content">
+
+			<!-- WWDo Start -->
+			<section id="wwd">
+				<h2 class="text-center">What we do</h2>
+				<h4 class="text-center">we provide skilled long weekend training sessions to college students.</h4>
+			</section>	
+			<!-- WWDo End -->
+			<br>
+
+  			<!-- About Section Start -->
+	  		<section id="about">
+	  			<h2 class="text-center">About Us</h2>
+	  			<h4 class="text-center">profiles.</h4>
+	  		</section>		
+	  		<!-- About Section End -->
+
+	  		
+
+	  		<!-- Technology Section Start -->
+			<section id="tech" class="container-fluid">
+
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<h2>Our Team</h2>
+						<hr>
+						<p>we are a team of skilled engineering professionals who graduated from elite institutes of India.</p>
+					</div>
+
+					<div class="col-md-4 col-sm-6">
+						<div class="higlight">
+						
+							<h4>Python <img src="images/py.jpeg" height="70" width="70" class="pull-right"></h4>
+							<hr>
+							<p>Learning Objectives – Understand what Python is and why it is so popular. Learn how to set up Python environment, flow control and write many Python program.</p>
+						</div>
+						<div class="higlight">
+							<h4>Machine Learning <img src="images/ml.jpg" height="70" width="70" class="pull-right"></h4>
+							<hr>
+							<p>Learning objectives – Understanding ML & usecases with a good ML project.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="higlight">
+							<h4 >Linux & Devops <img src="images/devops.png" height="70" width="70" class="pull-right"></h4>
+							<hr>
+							<p>Learning Objectives – To Brush you with technology and its aspects.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	  		<!-- Technology Section End -->
+
+	  		<!-- Contact Section Start -->
+			<section id="contact">
+				<div class="container-fluid bg-grey">
+			  		<h2 class="text-center">Contact</h2>
+				  
+					<div class="row">
+
+			    		<div style="margin-top:20px">
+					
+							<div class="row">
+			        			<div class="col-sm-4 form-group">
+			          				<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+								</div>
+						
+			        			<div class="col-sm-4 form-group">
+			          				<input class="form-control" id="email" name="email" placeholder="Email" type="email" data-error="email address is invalid" required>
+								</div>
+					
+			        			<div class="col-sm-4 form-group">
+			          				<input class="form-control" id="subject" name="subject" placeholder="Subject" type="textarea" required>
+								</div>
+
+							</div>
+
+			      			<div class="help-block with-errors"></div>
+				  			<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
+				  
+			      			<div class="row">
+			        			<div class="col-sm-12 form-group">
+			        				<button class="btn btn-primary pull-right" type="submit">Send</button>
+								</div>
+						  	</div>
+						  
+			    		</div>
+			  		</div>
+				</div> 
+				<div class="alret alert-danger invisible" id="errors">
+					Missing sections need to be filled
+				</div>
+			</section>
+			<!-- Contact Section Start -->
+
+  		</div>
+  		<!-- Content End -->
+
+  		<!-- Footer Start -->  
+  		<footer style="background-color: #337ab7;padding: 6px;padding-left: 10px">
+  			<div>
+  				<h6 style="text-align: center;color: #ccc;">CopyRight &copy; Code Hammers 2019 </h6>
+  			</div>
+  		</footer>
+  		<!-- Footer End -->
+
+   		<!-- libaries/Frameworks Start -->
+   		<!-- jQuery -->
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  		<!-- Bootstrap -->
+	  	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<!-- libaries/Frameworks End -->
+		<!-- Custom Script -->
+  		<script type="text/javascript" src="./js/script.js"></script>
+
+	</body>
+</html>
